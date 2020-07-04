@@ -1,0 +1,1125 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-aqua {
+  position: relative;
+  padding: 13px 15px;
+  border: 1px solid #02d2c7;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #02d2c7;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn-aqua:hover {
+  background-color: #02d2c7;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  background-color: #2f284f;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/hero.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.header .opacity-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0630+0,2d1b5a+100 */
+  background: #0a0630;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#0a0630), to(#2d1b5a));
+  background: linear-gradient(to right, #0a0630 0%, #2d1b5a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0630', endColorstr='#2d1b5a',GradientType=1 );
+  /* IE6-9 */
+  opacity: .7;
+}
+
+.header .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin: 0 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .hero-text {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .container .hero-text .hero-h1 {
+  color: #fff;
+  font-size: 42px;
+  text-align: center;
+}
+
+.header .container .hero-text span {
+  position: relative;
+  width: 60px;
+  height: 2px;
+  background-color: #02d2c7;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header .container .hero-text .des-hero {
+  position: relative;
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.header .container .navbar {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .container .navbar .logo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .container .navbar .logo .txt-logo {
+  font-size: 30px;
+  color: #02d2c7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.header .container .navbar .menu-list {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .navbar .menu-list a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: 400;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .container .navbar .menu-list a:hover {
+  color: #02d2c7;
+}
+
+.our-story {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.our-story .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin: 0 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-story .container .our-logo {
+  position: relative;
+}
+
+.our-story .container .our-text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.our-story .container .our-text .our-h1 {
+  position: relative;
+  color: #413d4b;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.our-story .container .our-text .our-des {
+  position: relative;
+  color: #414141;
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.watch {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../img/banner_1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.watch .opacity-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0630+0,2d1b5a+100 */
+  background: #0a0630;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#0a0630), to(#2d1b5a));
+  background: linear-gradient(to right, #0a0630 0%, #2d1b5a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0630', endColorstr='#2d1b5a',GradientType=1 );
+  /* IE6-9 */
+  opacity: .7;
+}
+
+.watch .watch-con {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.watch .watch-con .icon {
+  position: relative;
+  color: #fff;
+  font-size: 130px;
+  margin-bottom: 15px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.watch .watch-con .icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.watch .watch-con .watch-h2 {
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.expertise {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #fff;
+}
+
+.expertise .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin: 0 12%;
+}
+
+.expertise .container .title-container {
+  position: relative;
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.expertise .container .title-container .title-h1 {
+  color: #413d4b;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.expertise .container .title-container .title-des {
+  color: #c6c4c9;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.expertise .container .title-container span {
+  position: relative;
+  width: 60px;
+  height: 1.4px;
+  background-color: #c6c4c9;
+}
+
+.expertise .container .cards {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.expertise .container .cards .card {
+  position: relative;
+  width: 370px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.expertise .container .cards .card:hover {
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-1.2em);
+          transform: translateY(-1.2em);
+}
+
+.expertise .container .cards .card .card-img {
+  position: relative;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.expertise .container .cards .card .title-card-h2 {
+  margin: 24px 0;
+  color: #414141;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.expertise .container .cards .card .card-des-p {
+  color: #c6c4c9;
+  text-align: center;
+  margin: 0 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.team-cards {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/hero.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.team-cards .opacity-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0630+0,2d1b5a+100 */
+  background: #0a0630;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#0a0630), to(#2d1b5a));
+  background: linear-gradient(to right, #0a0630 0%, #2d1b5a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0630', endColorstr='#2d1b5a',GradientType=1 );
+  /* IE6-9 */
+  opacity: .7;
+}
+
+.team-cards .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin: 0 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team-cards .container .title-card {
+  position: relative;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team-cards .container .title-card .title-h1 {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+
+.team-cards .container .title-card .title-des {
+  position: relative;
+  color: #c6c4c9;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 15px 0;
+}
+
+.team-cards .container .title-card span {
+  position: relative;
+  width: 60px;
+  height: 1.4px;
+  background-color: #c6c4c9;
+}
+
+.team-cards .cards {
+  position: relative;
+  margin: o auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.team-cards .cards .card {
+  position: relative;
+  width: 222px;
+  height: 305px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #c6c4c9;
+  margin: 0 1%;
+}
+
+.team-cards .cards .card .img-card {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team-cards .cards .card .title-card {
+  position: relative;
+  width: 100%;
+}
+
+.team-cards .cards .card .title-card h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-cards .cards .card .title-card p {
+  color: #c6c4c9;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.team-cards .row-des {
+  position: relative;
+}
+
+.team-cards .row-des p {
+  color: #c6c4c9;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contacts {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.contacts .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: 0 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .container .forms {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 49%;
+  height: 100%;
+}
+
+.contacts .container .forms form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts .container .forms form input {
+  position: relative;
+  padding: 18px 22px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  color: #413d4b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  width: 100%;
+}
+
+.contacts .container .forms form textarea {
+  position: relative;
+  padding: 18px 22px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  color: #413d4b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  width: 100%;
+}
+
+.contacts .container .forms form button {
+  position: relative;
+  padding: 13px 15px;
+  border: 1px solid #02d2c7;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #02d2c7;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  outline: none;
+  background-color: #fff;
+}
+
+.contacts .container .forms form button:hover {
+  background-color: #02d2c7;
+  color: #fff;
+}
+
+.contacts .container .forms form .form-title {
+  position: relative;
+  color: #413d4b;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+
+.contacts .container .con-logo-brand {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 49%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.contacts .container .con-logo-brand img {
+  padding: 15px 0;
+}
+
+.contacts .container .con-logo-brand .title-logo-brand {
+  position: relative;
+  color: #413d4b;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45vh;
+  background: url(../img/footer_bg.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+footer .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin: 0 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .row-1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 33%;
+  height: 60%;
+}
+
+footer .container .row-1 .top-row {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+footer .container .row-1 .top-row img {
+  height: 100%;
+}
+
+footer .container .row-1 .top-row p {
+  font-size: 30px;
+  color: #02d2c7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+footer .container .row-1 .down-row {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+}
+
+footer .container .row-1 .down-row p {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+footer .container .row-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 33%;
+  height: 60%;
+}
+
+footer .container .row-2 .top-row {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+}
+
+footer .container .row-2 .top-row h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer .container .row-2 .down-row {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 15px;
+}
+
+footer .container .row-2 .down-row p {
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+footer .container .row-2 .down-row p span {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+footer .container .row-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 33%;
+  height: 60%;
+}
+
+footer .container .row-3 .top-row {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+}
+
+footer .container .row-3 .top-row h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer .container .row-3 .down-row {
+  position: relative;
+  width: 100%;
+}
+
+footer .container .row-3 .down-row form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 130px;
+  width: 100%;
+}
+
+footer .container .row-3 .down-row form input {
+  position: relative;
+  padding: 18px 22px;
+  width: 190px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background: transparent;
+}
+
+footer .container .row-3 .down-row form input::-webkit-input-placeholder {
+  color: #e5e5e5;
+}
+
+footer .container .row-3 .down-row form input:-ms-input-placeholder {
+  color: #e5e5e5;
+}
+
+footer .container .row-3 .down-row form input::-ms-input-placeholder {
+  color: #e5e5e5;
+}
+
+footer .container .row-3 .down-row form input::placeholder {
+  color: #e5e5e5;
+}
+
+footer .container .row-3 .down-row form button {
+  position: relative;
+  margin-left: 7px;
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 28px;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+5,ffffff+99&0.4+0,0.4+100 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.4)), color-stop(5%, rgba(255, 255, 255, 0.4)), color-stop(99%, rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0.4) 99%, rgba(255, 255, 255, 0.4) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#66ffffff',GradientType=1 );
+  /* IE6-9 */
+}
+
+footer .container .row-3 .down-row form button:hover {
+  background-color: #fff;
+}
+
+footer .opacity-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0630+0,2d1b5a+100 */
+  background: #0a0630;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#0a0630), to(#2d1b5a));
+  background: linear-gradient(to right, #0a0630 0%, #2d1b5a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0630', endColorstr='#2d1b5a',GradientType=1 );
+  /* IE6-9 */
+  opacity: .7;
+}
+/*# sourceMappingURL=style.css.map */
